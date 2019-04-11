@@ -23,11 +23,7 @@ func init() {
 }
 
 func main() {
-	//pflag.CommandLine.AddGoFlagSet(goflag.CommandLine)
-	//	pflag.Parse()
-
-	//	goflag.CommandLine.Parse([]string{})
-	glog.Info("Starting transaction...")
+	glog.Info("This is Info!")
 	//Define map
 	emails := make(map[string]string)
 
